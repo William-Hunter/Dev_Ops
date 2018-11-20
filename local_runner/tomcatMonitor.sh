@@ -1,5 +1,7 @@
 #!/bin/bash
 
+#tomcat监控脚本
+
 function action(){
 	tomcat=$2
 	port=$1
@@ -11,8 +13,8 @@ function action(){
 	fi
 }
 
+action 82 jeecg
 action 87 hkd
 
-#action 84 waterpump
 
 
